@@ -1,0 +1,17 @@
+{
+  "name": "namaste-react-2",
+  "version": "1.0.0",
+  "description": "This is namaste React Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Shubham",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
