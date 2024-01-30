@@ -1,1 +1,11 @@
 windows + . ---> for using emoji 
+npx parcel index.html (npx--> execute a package) --------> File runs on http://localhost:1234
+
+using import keyword we can use react and react-dom from node-module
+npx parcel build index.html -------------> to create prod build 
+Remove  "main": "app.js", from package.json if you get an error while creating prod-build 
+The three files created in the dist folder will have your production ready code 
+Now the production build is the highly optimized build which we can push on to production and serve this app to the users , It will be fast, performant and optimized    
+parcel-cache and dist can be regenerated, so can be pushed to gitignaire 
+Any code which you can automatically generate, no need to put it on github  
+Browserslist - To make our app compatible to the older versions (its a npm package)

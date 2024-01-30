@@ -1,22 +1,14 @@
-/* <div id="parent">
-<div id="child1">
-    <h1>I am heading-1 in child 1</h1>
-    <h2>I am heading-2 in child 1</h2>
-</div>
-<div id="child2">
-    <h1>I am heading-1 in child 2</h1>
-    <h2>I am heading-2 in child 2</h2>
-</div>
-</div> */
+import React from "react";
+import ReactDOM from "react-dom/client"
 
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
-    React.createElement("h1", {}, "I am heading-1 in child-1"),
-    React.createElement("h2", {}, "I am heading-2 in child-1"),
+    React.createElement("h1", {}, "I am learning Namaste-React"),
+    React.createElement("h2", {}, "from my mentor - Akshay Saini"),
   ]),
   React.createElement("div", { id: "child2" }, [
-    React.createElement("h1", {}, "I am heading-1 in child-2"),
-    React.createElement("h2", {}, "I am heading-2 in child-2"),
+    React.createElement("h1", {}, "I am Shubham"),
+    React.createElement("h2", {}, "A Front-end Developer "),
   ]),
 ]);
 
